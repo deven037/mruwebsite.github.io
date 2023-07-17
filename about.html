@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width" initial-scale="1.0">
+        <title>University Website Design</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+<script src="https://kit.fontawesome.com/20b293ec14.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <section class="sub-header">
+            
+            
+
+            <nav>
+                <a href="index.html"><img src="images/mrlogo.png" alt=""></a>
+                <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSES</a></li>
+                        <li><a href="blogs.html">BLOGS</a></li>
+                        <li><a href="contact.html">CONTACT US</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+           <h1>About US</h1>
+
+
+        </section>
+
+
+        <!----about us content-->
+
+        <section class="about-us">
+            <div class="row">
+                <div class="about-col">
+                    <h1>We are the Faridabad's largest University</h1>
+                    <p>Manav Rachna University (MRU) is a State Private University (established by Haryana State Legislature Act No 26 of 2014 & under section 2(f) of UGC Act 1956) and has evolved from Manav Rachna College of Engineering (MRCE, established in 2004), a NAAC Accredited 'A' Grade Institution.</p>
+                    <a href="https://manavrachna.edu.in/" target="_blank" class="btn1-red-btn">EXPLORE NOW</a>
+                </div>
+                <div class="about-col">
+                    <img src="images/about.jpg">
+                </div>
+            </div>
+           
+        </section>
+
+
+
+   
+
+        <hr>
+
+         <!---footer-->
+         
+         <section class="footer">
+            <h4>About Us</h4>
+            <p>Manav Rachna University is a leading educational institution that offers a diverse range of programs and fosters holistic development among its students.<br>With state-of-the-art infrastructure, experienced faculty, and a strong emphasis on industry-relevant skills, Manav Rachna University prepares students for success in their chosen fields</p>
+
+            <div class="icons">
+                <a href="www.youtube.com"><i class="fa fa-facebook"></i></a>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-twitter"></i>
+            </div>
+         </section>
+
+
+
+
+
+
+
+        <!-- Javascript for toggle -->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+
+        </script>
+
+    </body>
+</html>>
